@@ -1,0 +1,146 @@
+*
+{
+  margin: 0px;
+}
+
+@font-face {
+    font-family: "bebas";
+    src: url(fonts/bebas.TTF);
+}
+.wrapper
+{
+  display: flex;
+  flex-direction: column;
+  background-color: #FCEADE;
+
+  height: 100%;
+}
+
+.block
+{
+  height: 75px;
+  padding: 10px;
+  background-color: #EA526F;
+  font-family: bebas;
+  font-size: 150%;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-item: center;
+  flex-direction: column;
+  text-align: center;
+  transition: all 0.5s;
+  float: left;
+  white-space: nowrap;
+  height: 75px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.blockstat
+{
+  height: 75px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #EA526F;
+  font-family: bebas;
+  font-size: 150%;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-item: center;
+  flex-direction: column;
+  text-align: center;
+  /*float: left;*/
+
+}
+.block:hover
+{
+  background-color: #FFED66;
+  color: #222650;
+}
+
+.header
+{
+  display: flex;
+  flex-flow: row-wrap;
+}
+
+.footer
+{
+  background-color: #EA526F;
+  position: fixed;
+  height: 40px;
+  bottom: 0px;
+  font-family : Roboto Condensed;
+  font-weight: normal;
+  font-size : 20px;
+  color : #FFFAFF;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: all 0.75s;
+
+}
+
+.footer:hover
+{
+  color: #FFED66;
+}
+
+.title
+{
+font-family: bebas;
+color: #FFFAFF;
+}
+
+.TitleCharacterStyle
+{
+  font-family : Roboto Condensed;
+  font-weight : bold;
+  font-size : 75px;
+  color : #B0D52B;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.container
+{
+  font-family: Roboto Condensed;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  text-align: center;
+  color: #00CECB;
+}
+
+
+.grow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:center;
+  height: 100%;
+}
+.grow img{
+  transition: all .2s ease-in-out; }
+.grow:hover img { transform: scale(1.1); }
+
+.aligm
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 100%;
+
+}
